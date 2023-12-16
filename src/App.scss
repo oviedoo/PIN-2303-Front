@@ -1,0 +1,54 @@
+$primary: #E0752F;
+$secondary: #343434;
+
+// accordion
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $primary;
+@import '~bootstrap/scss/bootstrap.scss';
+
+* {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    margin-top: 20px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: solid 32px $primary;
+
+
+
+    .about-content {
+        height: 384px;
+    }
+
+
+}
+
+
+.accordion {
+    width: 500px;
+}
+
+.nav-link:hover {
+    color: $primary;
+}
+
+form {
+    align-items: center;
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+.alert-success {
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
