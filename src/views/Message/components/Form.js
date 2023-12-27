@@ -8,13 +8,13 @@ function Form({ handleChange, handleSubmit }) {
             <form onSubmit={handleSubmit} >
 
                 <div class="mb-3">
-                    <label for="firstName" class="form-label">
+                    <label for="name" class="form-label">
                         Nombre:
                     </label>
                     <input
                         type="text"
                         class="form-control"
-                        id="firstName"
+                        id="name"
                         onChange={handleChange}
                         required
                         maxLength={15}
@@ -43,13 +43,13 @@ function Form({ handleChange, handleSubmit }) {
                 </div>
 
                 <div class="mb-3">
-                    <label for="cellPhoneNumber" class="form-label">
+                    <label for="cell" class="form-label">
                         Celular:
                     </label>
                     <input
                         type="number"
                         class="form-control"
-                        id="cellPhoneNumber"
+                        id="cell"
                         onChange={handleChange}
                         required
                     />
