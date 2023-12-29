@@ -20,11 +20,15 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-left: solid 32px $primary;
 
+    .about-container {
 
+        height: 384px;
+        border-left: solid 32px $primary;
+    }
 
     .about-content {
+        margin-left: 10px;
         height: 384px;
     }
 
