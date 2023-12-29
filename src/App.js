@@ -5,6 +5,7 @@ import Message from './views/Message';
 import Navbar from './navigation/NavBar';
 import Accordion from './views/Accordion';
 import Carousel from './views/Carousel';
+import Footer from './views/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <div className="App">
         <Carousel />
+
         <section id='about'>
           <div className='about-container'>
             <div className='about-content'>
@@ -28,7 +30,7 @@ function App() {
         </section>
         <Accordion />
         <Message />
-
+        <Footer />
       </div>
     </>
   );
