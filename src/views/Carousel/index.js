@@ -8,13 +8,13 @@ function Carousel() {
             </div>
             <div class="carousel-inner ">
                 <div class="carousel-item active">
-                    <img src="./corte1.png" class="d-block w-100" alt="photo1" />
+                    <img src="./corte1.png" class="d-block img-carousel " alt="photo1" />
                 </div>
                 <div class="carousel-item">
-                    <img src="./corte2.png" class="d-block w-100" alt="photo2" />
+                    <img src="./corte2.png" class="d-block img-carousel " alt="photo2" />
                 </div>
                 <div class="carousel-item">
-                    <img src="./corte3.png" class="d-block w-100" alt="photo3" />
+                    <img src="./corte3.png" class="d-block img-carousel " alt="photo3" />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
