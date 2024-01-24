@@ -15,16 +15,22 @@ function App() {
         <section id='about'>
           <div className='about-container'>
             <div className='about-content'>
-              <h2>Ayudamos a las empresas
-                <br />crecer e innovar</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, id magnam. Voluptatibus quo modi molestiae praesentium, enim pariatur cum hic nesciunt ducimus iure nihil culpa maxime dolore quia quas! Nesciunt.
+              <div>
+                <h1 className='about-title'>BARBERÍA RAUSTIN </h1>
+                <p className='about-p'>
+                  Desde 2021 nos dedicamos a mejorar la imagen de nuestros clientes. El objetivo es
+                  brindar el mejor servicio y marcar tendencia. Por eso construimos un espacio en el mundo para que
+                  disfrutes y te sientas cómodo. Queremos que RAUSTIN sea tu lugar donde, más allá de cambiar tu look,
+                  puedes relajarte, disfrutar de tu refresco favorito y encontrarte con amigos.
+                  <br />
+                  <h6 className='p-h6' >
+                    - Te esperamos -
+                  </h6>
+                </p>
+              </div>
 
-              </p>
             </div>
           </div>
-
-
         </section>
         <Carousel />
         <Accordion />
