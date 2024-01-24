@@ -1,9 +1,10 @@
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+
+        <nav className="navbar navbar-expand-lg bg-secondary d-flex justify-content-around">
             <div className="container-fluid">
                 <a className="navbar-brand" href="./index.html">
-                    Max and Jeremías
+                    <img src="./logo-nav.webp" alt="logo" className="logo " />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -19,7 +20,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#landing">
+                            <a className="nav-link " aria-current="page" href="#landing">
                                 Inicio
                             </a>
                         </li>
@@ -28,11 +29,7 @@ function Navbar() {
                                 Sobre Nosotros
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#products">
-                                Productos
-                            </a>
-                        </li>
+
                         <li className="nav-item">
                             <a className="nav-link" href="#service">
                                 Servicios
