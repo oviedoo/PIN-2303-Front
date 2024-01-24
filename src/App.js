@@ -12,11 +12,15 @@ function App() {
     <>
       <Navbar />
       <div className="App">
+        <div className='backgorund'>
+          <h1 className='title'>BARBERÍA RAUSTIN</h1>
+        </div>
+
         <section id='about'>
           <div className='about-container'>
             <div className='about-content'>
               <div>
-                <h1 className='about-title'>BARBERÍA RAUSTIN </h1>
+                <h2 className='about-title'>BARBERÍA RAUSTIN </h2>
                 <p className='about-p'>
                   Desde 2021 nos dedicamos a mejorar la imagen de nuestros clientes. El objetivo es
                   brindar el mejor servicio y marcar tendencia. Por eso construimos un espacio en el mundo para que
