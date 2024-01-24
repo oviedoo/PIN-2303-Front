@@ -1,20 +1,16 @@
 function Footer() {
     return (
-
         <footer id="footer">
-            <div className="footer-content">
-                <div className="copy">
-                    <p>2024 &copy; Todos los derechos reservados</p>
-                </div>
-
-                <div className="logo">
-                    <h6>Max And Jeremías</h6>
-                </div>
+            <div className="footer-copy">
+                <p>
+                    2024 &copy; todos los derechos reservados
+                </p>
             </div>
 
+            <div className="logo">
+                <img src="logo-nav.webp" alt="logo" className="logo" />
+            </div>
         </footer>
-
-    )
+    );
 }
-
-export default Footer;
+export default Footer
