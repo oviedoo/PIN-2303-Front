@@ -12,8 +12,6 @@ function App() {
     <>
       <Navbar />
       <div className="App">
-        <Carousel />
-
         <section id='about'>
           <div className='about-container'>
             <div className='about-content'>
@@ -28,6 +26,7 @@ function App() {
 
 
         </section>
+        <Carousel />
         <Accordion />
         <Message />
         <Footer />
