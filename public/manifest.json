@@ -8,29 +8,25 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "local.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "1167x799"
     },
     {
-      "src": "logo512.png",
+      "src": "local2.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1182x1030"
+    },
+
+    {
+      "src": "corte2.png",
+      "type": "image/png",
+      "sizes": "966x552"
     },
     {
-      "src": "photo1.png",
+      "src": "corte3.png",
       "type": "image/png",
-      "sizes": "1920x1280"
-    },
-    {
-      "src": "photo2.png",
-      "type": "image/png",
-      "sizes": "1920x1280"
-    },
-    {
-      "src": "photo3.png",
-      "type": "image/png",
-      "sizes": "1920x1280"
+      "sizes": "966x552"
     }
   ],
   "start_url": ".",
