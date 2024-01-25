@@ -27,7 +27,6 @@ function Carousel() {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
             <div className="card">
                 <div className="card-conten">
                     <h3>
@@ -43,6 +42,7 @@ function Carousel() {
 
                 </div>
             </div>
+
         </div>
 
     )
