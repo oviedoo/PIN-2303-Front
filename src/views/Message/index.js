@@ -22,13 +22,13 @@ function Message() {
     return (
         <section id="contact">
             <Form handleChange={handleChange} handleSubmit={handleSubmit} />
+
             {
                 successMessage &&
                 <div class="alert alert-success" role="alert">
                     Tu mensaje se ha enviado correctamente
                 </div>
             }
-
         </section>
     )
 }
