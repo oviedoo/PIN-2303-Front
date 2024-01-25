@@ -96,10 +96,57 @@ $accordion-icon-active-color: $primary;
     }
 }
 
-.img-carousel {
-    width: 100%;
+.caroousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 768px;
+
+
+    #carouselExample {
+        height: 768px;
+        width: 1300px;
+    }
+
+
+
+    .img-carousel {
+        height: 768px;
+    }
+
+    .card {
+        object-fit: cover;
+        background-color: $primary;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        height: 768px;
+        width: 100%;
+    }
+
+    .card-conten {
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        h3 {
+            font-weight: 700;
+        }
+    }
+
+    .arrows-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .arrow {
+            margin-top: 14px;
+            width: 35px;
+            height: auto;
+        }
+    }
 }
+
+
 
 #service {
     width: 100%;
@@ -189,7 +236,27 @@ $accordion-icon-active-color: $primary;
     background-color: $secondary;
     padding: 0 20px 0 110px;
 
+    .icon__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon__footer a {
+        text-decoration: none;
+        color: #d2ac7f;
+        font-size: 21px;
+        padding: 10px 8px;
+    }
+
+    .icon__footer a:hover {
+        transition: 0.5s;
+        color: #ffefdd;
+    }
+
+
     img {
         width: 110px;
+        margin-right: 101px;
     }
 }
