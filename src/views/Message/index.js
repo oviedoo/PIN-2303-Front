@@ -14,7 +14,7 @@ function Message() {
 
     function handleSubmit(event) {
         event.preventDefault()
-        axios.post("https://pin2303.000webhostapp.com/project-pin/routes/api.php/add-people", messageData)
+        axios.post("https://pin2303.000webhostapp.com/project-pin/routes/api.php", messageData)
             .then(response => {
                 setSuccessMesage(true)
             })
