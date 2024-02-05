@@ -14,7 +14,7 @@ function Message() {
 
     function handleSubmit(event) {
         event.preventDefault()
-        axios.post("https://jsonplaceholder.typicode.com/posts", messageData)
+        axios.post("https://pin2303.000webhostapp.com/_db.php", messageData)
             .then(response => {
                 setSuccessMesage(true)
             })
