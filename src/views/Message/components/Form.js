@@ -14,13 +14,13 @@ function Form({ handleChange, handleSubmit }) {
                 <form onSubmit={handleSubmit} >
 
                     <div class="mb-3">
-                        <label for="name" class="form-label">
+                        <label for="full_name" class="form-label">
                             Nombre:
                         </label>
                         <input
                             type="text"
                             class="form-control"
-                            id="name"
+                            id="full_name"
                             onChange={handleChange}
                             required
                             maxLength={15}
